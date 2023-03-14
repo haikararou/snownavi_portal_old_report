@@ -70,6 +70,10 @@ html {
 	overflow: hidden;
 }
 
+.btm30 a + a {
+	margin-top: .5rem;
+}
+
 .btm40 {
 	margin: 0 0 40px !important;
 	clear: both;

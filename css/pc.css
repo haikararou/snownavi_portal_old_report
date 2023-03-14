@@ -669,7 +669,26 @@ a:active {
 	overflow: hidden;
 }
 
+.content_wrap2 {
+	clear: both;
+	width: 95%;
+	max-width: 1440px;
+	margin: 0 auto;
+	color: #fff;
+	padding: 40px 0 0;
+	overflow: hidden;
+}
+
+.content_wrap2 h3 {
+	color: #333;
+	font-size: 1.3rem;
+}
+
 #sub .content_wrap {
+	width: 1000px !important;
+}
+
+#sub .content_wrap2 {
 	width: 1000px !important;
 }
 
@@ -1468,6 +1487,9 @@ ul.accordion ul a {
 	color: #fff;
 	height: 50px;
 	font-size: 18px;
+}
+#sub #pageTitle.pageTitle2 {
+	margin-top: 2rem;
 }
 
 #sub #pageTitle h2 {
@@ -2577,6 +2599,11 @@ table.t01 th {
 	width: 290px;
 	float: right;
 	padding: 50px 0 0;
+}
+
+.report .side select {
+	width: 100%;
+	padding: .5rem;
 }
 
 .report .side .calendar {
