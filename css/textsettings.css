@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/*--------------------------------------------------------------
+
+textsetting.css
+各ブラウザでのフォントサイズの違いをなくすcss
+
+base.css
+bodyの余白や、h1h2...の余白、clearfixなど、
+
+common.css
+上記cssのimportや、レイアウト（大枠）を記載したcss
+
+--------------------------------------------------------------*/
+
+/* ------------------------------------------------------------ */
+/* 全体に関わる設定*/
+/* ------------------------------------------------------------ */
+
+body {
+  font-size:13px;
+  *font-size:small;
+  *font:x-small;
+  font-family:Helvetica, Arial, "メイリオ",  "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif
+}

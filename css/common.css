@@ -1,0 +1,409 @@
+@charset "UTF-8";
+@import url(base.css);
+@import url(textsettings.css);
+
+/*--------------------------------------------------------------*/
+
+/*  フォントサイズ早見表
+	以下のようにサイズを指定することで各ブラウザでのフォントサイズを揃えることが出来ます。
+	左記のパーセントで指定してください。
+
+	77% = 10px	|	122% = 16px	|	167% = 22px
+	85% = 11px	|	129% = 17px	|	174% = 23px
+	92% = 12px	|	136% = 18px	|	182% = 24px
+	100% = 13px	|	144% = 19px	|	189% = 25px
+	107% = 14px	|	152% = 20px	|	197% = 26px
+	114% = 15px	|	159% = 21px	|
+*/
+
+/* ------------------------------------------------------------ */
+/* 基本、レイアウト指定 */
+/* ------------------------------------------------------------ */
+
+#topNews h2,
+.viga,
+#nav {
+	font-family: 'Viga', sans-serif;
+	color: #404040 !important;
+	font-weight: 400 !important;
+}
+
+* html body {
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "メイリオ", Arial, Helvetica, sans-serif, Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic";
+	overflow: hidden;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+.img_left {
+	float: left;
+	margin: 0 15px 15px 0;
+}
+
+.img_right {
+	float: right;
+	margin: 0 0 15px 15px;
+}
+
+.btm10 {
+	margin: 0 0 10px !important;
+	clear: both;
+	overflow: hidden;
+}
+
+.btm20 {
+	margin: 0 0 20px !important;
+	clear: both;
+	overflow: hidden;
+}
+
+.btm30 {
+	margin: 0 0 30px !important;
+	clear: both;
+	overflow: hidden;
+}
+
+.btm40 {
+	margin: 0 0 40px !important;
+	clear: both;
+	overflow: hidden;
+}
+
+.btm50 {
+	margin: 0 0 50px !important;
+	clear: both;
+	overflow: hidden;
+}
+
+/* ------------------------------------------------------------ */
+/* リンク色 */
+/* ------------------------------------------------------------ */
+#content a {
+	color: #2b98ce;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+}
+
+#content .caseList .data,
+#content .enBox li a {
+	color: #333;
+}
+
+#content a:hover {
+	opacity: 0.8;
+}
+
+.clearfix:after {
+	content: ".";  /* 新しいコンテンツ */
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden; /* 非表示に */
+}
+
+.clearfix {
+	min-height: 1px;
+}
+
+* html .clearfix {
+	height: 1px;/*\*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+#container {
+	width: 100%;
+}
+
+.wideslider {
+	width: 100%;
+	text-align: left;
+	position: relative;
+	overflow: hidden;
+}
+
+.wideslider ul,
+.wideslider ul li {
+	float: left;
+	display: inline;
+	overflow: hidden;
+	position: relative;
+}
+
+.wideslider ul li .text {
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	color: #fff;
+	font-size: 25px;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.wideslider ul li .text h2 {
+	font-size: 122%;
+}
+
+.wideslider ul li .text span {
+	display: block;
+	margin: 10px 0 0;
+	padding: 5px 0;
+	font-size: 12px;
+	width: 110px;
+	text-align: center;
+	border: solid 1px #fff;
+	border-radius: 3px; /* CSS3草案 */
+	-webkit-border-radius: 3px; /* Safari,Google Chrome用 */
+	-moz-border-radius: 3px; /* Firefox用 */
+	cursor: pointer;
+	text-shadow: none !important;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+}
+
+.wideslider ul li:hover .text span {
+	background: #fff;
+	color: #333;
+}
+
+.wideslider ul li:hover .text span i {
+	margin: 0 0 0 13px;
+}
+
+.wideslider ul li .text span i {
+	margin: 0 0 0 10px;
+	font-size: 10px;
+}
+
+.wideslider ul li img {
+	width: 100%;
+	display: none;
+}
+
+.wideslider_base {
+	top: 0;
+	position: absolute;
+}
+
+.wideslider_wrap {
+	top: 0;
+	position: absolute;
+	overflow: hidden;
+}
+
+.slider_prev,
+.slider_next {
+	top: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: 100;
+	cursor: pointer;
+}
+
+.slider_prev {
+	background: #000 url(../img/prev.png) no-repeat right center;
+}
+
+.slider_next {
+	background: #000 url(../img/next.png) no-repeat left center;
+}
+
+.wideslider .pagination {
+	display: none;
+}
+
+/* ボタン */
+.btn_item {
+	display: block;
+	padding: 0 10px !important;
+	line-height: 35px!important;
+	color: #2b98ce !important;
+	border: solid 1px #2b98ce;
+	border-radius: 2px; /* CSS3草案 */
+	-webkit-border-radius: 2px; /* Safari,Google Chrome用 */
+	-moz-border-radius: 2px; /* Firefox用 */
+	height: 35px !important;
+	background: none !important;
+	font-size: 12px!important;
+	position: relative;
+	text-align: left;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+}
+
+.btn_item:hover {
+	background: #2b98ce !important;
+	color: #fff!important;
+	text-decoration: none !important;
+}
+
+.btn_item i {
+	position: absolute;
+	right: 8px;
+	top: 11px;
+	font-size: 10px !important;
+}
+
+/* =======================================
+	ClearFixElements
+======================================= */
+.wideslider ul:after {
+	content: ".";
+	height: 0;
+	clear: both;
+	display: block;
+	visibility: hidden;
+}
+
+.wideslider ul {
+	display: inline-block;
+	overflow: hidden;
+}
+
+.pagenation {
+	text-align: center;
+	clear: both;
+}
+
+/* ------------------------------------------------------------ */
+/* スクロールバー */
+/* ------------------------------------------------------------ */
+/* 全体 */
+.jspContainer {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+/* スクロールバーを除いたエリア */
+.jspPane {
+	position: absolute;
+}
+
+/* 縦スクロールバー */
+.jspVerticalBar {
+	position: absolute;
+	top: 0;
+	right: 2%;
+	width: 10px;
+	height: 100%;
+}
+
+/* 横スクロールバー */
+.jspHorizontalBar {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 10px;
+}
+
+/* 背景 */
+.jspTrack {
+	background: #828282;
+	position: relative;
+	width: 2px;
+}
+
+/* ノブ */
+.jspDrag {
+	background: #333;
+	position: relative;
+	top: 0;
+	left: -1px;
+	cursor: pointer;
+	width: 4px;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag {
+	float: left;
+	height: 100%;
+}
+
+/* ------------------------------------------------------------ */
+/* 全体格納 */
+/* ------------------------------------------------------------ */
+#wrapper {
+}
+
+#container {
+	display: none;
+}
+
+/* ------------------------------------------------------------ */
+/* ヘッダー */
+/* ------------------------------------------------------------ */
+#header {
+}
+
+/* ------------------------------------------------------------ */
+/* コンテンツ */
+/* ------------------------------------------------------------ */
+#content {
+}
+
+#content.single a {
+	color: #2b98ce;
+}
+
+/* 左コンテンツ */
+#content .left {
+}
+
+/* 中央コンテンツ */
+#content .main {
+}
+
+/* 右コンテンツ */
+#content .right {
+}
+
+/* ------------------------------------------------------------ */
+/* フッター */
+/* ------------------------------------------------------------ */
+#footer {
+}
+
+/* ------------------------------------------------------------ */
+/* Youtube埋め込み対応 */
+/* ------------------------------------------------------------ */
+.movie-wrap {
+     position: relative;
+     padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
+     height: 0;
+     overflow: hidden;
+}
+
+.movie-wrap iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+}
+
+/* ------------------------------------------------------------ */
+/* Google Map埋め込み対応 */
+/* ------------------------------------------------------------ */
+
+.gmap {
+height: 0;
+overflow: hidden;
+padding-bottom: 66.6%;
+position: relative;
+}
+.gmap iframe {
+position: absolute;
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+}

@@ -1,0 +1,288 @@
+@charset "UTF-8";
+
+/*--------------------------------------------------------------*/
+/* 夏切り替え用 */
+/* ------------------------------------------------------------ */
+
+/*.summer a:hover {
+	color: #22a639;
+	text-decoration: none;
+}*/
+
+/* グローバルナビ */
+/*.summer #nav li:hover > div {
+	border: solid 1px #22a639;
+}
+
+.summer #nav li:hover a {
+	color: #22a639 !important;
+	background: url(../img/navi_up_green.png) no-repeat center bottom;
+}
+
+.summer #nav li li a {
+	color: #22a639 !important;
+	background: url(../img/subnav_bg_green.png) no-repeat 0 3px !important;
+}
+
+.summer #nav p .btn {
+	color: #22a639 !important;
+	border: solid 1px #22a639;
+}
+
+.summer #nav p .btn:hover {
+	background: #22a639 !important;
+	color: #fff!important;
+}*/
+
+/* TOP・NEWS */
+/*.summer #topNews li a {
+	color: #22a639;
+}
+
+.summer #topNews .h2box a {
+	color: #22a639;
+}
+
+.summer .scroll_area li a {
+	color: #22a639;
+}
+
+.sidenav.summer a {
+	color: #22a639;
+	background: url(../img/subnav_bg_green.png) no-repeat 0 7px;
+}
+
+.summer .stay .link a {
+	color: #22a639;
+}
+
+.summer .btn_item {
+	color: #22a639 !important;
+	border: solid 1px #22a639;
+}
+
+.summer .btn_item:hover,
+.summer a.btn_item:hover {
+	background: #22a639 !important;
+	color: #fff!important;
+}
+
+.summer #stay_food .enBox ul.accordion ul a {
+	background: url(../img/subnav_bg.gif) no-repeat 0 7px !important;
+	color: #22a639;
+}
+
+.summer #areaMap .other a {
+	color: #22a639;
+}
+
+.summer.map .other a,
+.summer.tokusen .caseList li a .data h4,
+.summer.arbeit #content h3 a,
+.summer.arbeit .inbox .data a,
+body.shop.summer .right h4 a,
+.summer #shop01 .right a,
+.summer #shop02 .right a,
+.summer #shop03 .right a,
+.summer #shop04 .right a,
+.summer #shop05 .right a,
+.summer.stay #content h3 a,
+.summer .wpgmp_infowindow a,
+.summer#sub #punkuz a {
+	color: #22a639 !important;
+}
+
+.summer .wpgmp_infowindow a,
+.summer.report .side a,
+.summer.report .entory a,
+.summer.tokusen .caseList li a .data h4,
+.summer.arbeit #content h3 a,
+.summer.arbeit .inbox .data a,
+.summer　#shop01 .right a,
+.summer　#shop02 .right a,
+.summer　#shop03 .right a,
+.summer　#shop04 .right a,
+.summer　#shop05 .right a,
+.summer.stay #content h3 a,
+.summer#sub #punkuz a {
+	color: #22a639 !important;
+}
+
+
+.summer.map .other a:hover,
+.summer .wpgmp_infowindow a:hover,
+.summer.report .month li a:hover h5,
+.summer #areaMap .other a:hover,
+.summer .stay .link a:hover,
+.summer #topNews .h2box a:hover,
+.summer .scroll_area li a:hover,
+.summer.tokusen .caseList li a:hover .data h4,
+.summer.tokusen .caseList li a:hover,
+.summer.arbeit #content h3 a:hover,
+.summer.arbeit .inbox .data a:hover,
+.summer #shop01 .right a:hover,
+.summer #shop02 .right a:hover,
+.summer #shop03 .right a:hover,
+.summer #shop04 .right a:hover,
+.summer #shop05 .right a:hover,
+body.shop.summer .right h4 a:hover,
+.summer #bgBox h4 a:hover,
+.summer.tokusen .single h3 .cat a:hover,
+.summer.report .side .photoinfo:hover,
+.summer.stay #content h3 a:hover,
+.summer.report .entory a:hover,
+.summer.report .side .tel a:hover,
+.summer#sub #punkuz a:hover {
+	color: #22a639 !important;
+	opacity: 1 !important;
+}
+
+.summer#sub #topArea .imgBox span:hover {
+    background: #22a639 !important;
+}
+
+.summer.eat .data .map span {
+    color: #22a639;
+}
+*/
+
+/*下層：ページタイトル*/
+/*.summer.topics #pageTitle {
+	background: #22a639;
+}
+.summer.topics h2 {
+	background: url(../img/topics_icon_01_green.png) no-repeat 960px 13px !important;
+}
+
+.summer.report #pageTitle {
+	background: #22a639;
+}
+
+.summer.onsen #pageTitle {
+	background: #22a639;
+}
+.summer.onsen h2 {
+	background: url(../img/onsen/onsen_icon_01_green.png) no-repeat 960px 10px;
+}
+
+.summer.arbeit #pageTitle {
+	background: #22a639;
+}
+.summer.arbeit h2 {
+	background: url(../img/arbeit/arbit_icon01_green.png) no-repeat 960px 15px;
+}
+
+.summer.map #pageTitle {
+	background: #22a639;
+}
+.summer.map h2 {
+	background: url(../img/map_icon_01_green.png) no-repeat 960px 13px !important;
+}*/
+
+
+/*下層：toics*/
+/*.summer.topics h4 {
+	color: #22a639;
+}
+
+.summer.report .entory a {
+	color: #22a639;
+}
+
+.summer.report .pagenate a {
+	padding: 0 !important;
+	color: #22a639 !important;
+	border: solid 1px #22a639;
+}
+.summer.report .pagenate .current {
+	padding: 0 !important;
+	border: solid 1px #22a639;
+	background: #22a639 !important;
+}
+
+.summer.report .pagenate a:hover {
+	background: #22a639 !important;
+	color: #fff !important;
+}
+
+.summer.report .side .tel a {
+	color: #22a639;
+}
+
+.summer.report .side .calendar table td a {
+	color: #22a639 !important;
+}*/
+
+
+/*下層：宿泊*/
+/*.summer.stay .item .inBox {
+    border-top: solid 2px #22a639;
+}
+
+.summer.stay .right .btn_item:hover {
+    background: #22a639 !important;
+    color: #fff !important;
+}
+
+.summer.stay .item .inBox .right h4 span a {
+    color: #22a639;
+}
+.summer ul.accordion > li > p {
+    color: #22a639;
+}*/
+
+
+/*下層：温泉*/
+/*.summer.onsen .caseList li h4 a {
+	color: #22a639 !important;
+}
+
+.summer.onsen .caseList li .map a {
+	color: #22a639 !important;
+}
+
+.summer.onsen .caseList li h4 span i {
+	color: #22a639 !important;
+}
+
+
+.summer.stay .item .inBox .left a.btn_item {
+	background: #22a639 !important;
+}
+
+.summer.stay .item .inBox .left a.btn_item:hover {
+	background: #22a639 !important;
+	color: #fff !important;
+	border: solid 1px #22a639 !important;
+}*/
+
+/*下層：求人*/
+/*.summer.arbeit .inbox {
+	border-top: solid 2px #22a639;
+}
+
+.summer.arbeit .inbox .btn a {
+	background: #22a639 !important;
+}
+
+.summer.arbeit .inbox .btn a:hover {
+	background: #22a639 !important;
+	color: #fff !important;
+	border: solid 1px #22a639 !important;	
+}*/
+
+/*下層：マップ*/
+/*.summer.map .bgBox h4 {
+	color: #22a639;
+	border-bottom: solid 1px #22a639;
+}
+
+.summer.map .bgBox ul li a {
+	color: #22a639;
+	background: url(../img/icon_info_green.png) no-repeat 0 0px;
+}
+
+.summer table.t01 th {
+	background: #eaf7ed;
+	color: #208a32;
+}*/
